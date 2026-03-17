@@ -32,7 +32,7 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarStyleApple
           brandName="BL BENZ"
-          brandLogo={BL_BENZ_LOGO}
+          logoSrc={BL_BENZ_LOGO}
           navItems={[
             { name: "Réserver", id: "booking" },
             { name: "Véhicules", id: "vehicles" },
@@ -76,7 +76,7 @@ export default function LandingPage() {
           carouselPosition="right"
           ariaLabel="Hero section BL BENZ luxury car rental"
           marqueeItems={[
-            { imageSrc: BL_BENZ_LOGO, imageAlt: "BL BENZ Logo" }
+            { src: BL_BENZ_LOGO, alt: "BL BENZ Logo" }
           ]}
           showMarqueeCard={true}
         />
