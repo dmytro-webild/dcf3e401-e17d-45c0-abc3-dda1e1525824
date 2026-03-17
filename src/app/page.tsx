@@ -38,6 +38,7 @@ export default function LandingPage() {
             { name: "Avis", id: "testimonials" },
             { name: "Contact", id: "contact" }
           ]}
+          brandName="BL BENZ"
         />
       </div>
 
