@@ -110,12 +110,12 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           tagIcon={Sparkles}
           products={[
-            { id: "clio", brand: "Renault", name: "Clio Compact", price: "350 DH/jour", rating: 5, reviewCount: "120", imageSrc: "http://img.b2bpic.net/free-photo/taxi-motion-crossover-street-dynamic-urban-vehicle_169016-68600.jpg", imageAlt: "Renault Clio compact car" },
-            { id: "dacia", brand: "Dacia", name: "Dacia Duster SUV", price: "450 DH/jour", rating: 5, reviewCount: "95", imageSrc: "http://img.b2bpic.net/free-photo/suv-curve-snowy-forest-road-motion-control_169016-71362.jpg", imageAlt: "Dacia Duster SUV" },
-            { id: "mercedes", brand: "Mercedes", name: "Mercedes C-Class", price: "800 DH/jour", rating: 5, reviewCount: "85", imageSrc: "http://img.b2bpic.net/free-photo/elegant-uber-driver-giving-taxi-ride_23-2149241752.jpg", imageAlt: "Mercedes C-Class luxury sedan" },
-            { id: "peugeot", brand: "Peugeot", name: "Peugeot 208", price: "380 DH/jour", rating: 5, reviewCount: "110", imageSrc: "http://img.b2bpic.net/free-photo/woman-charging-electro-car-electric-gas-station-drinking-coffee_1303-15095.jpg", imageAlt: "Peugeot 208 compact car" },
-            { id: "bmw", brand: "BMW", name: "BMW 3 Series", price: "900 DH/jour", rating: 5, reviewCount: "78", imageSrc: "http://img.b2bpic.net/free-photo/well-dressed-beautiful-woman-brutal-male-suit-near-luxury-car-outdoors-against-cityscape_613910-5973.jpg", imageAlt: "BMW 3 Series premium sedan" },
-            { id: "volkswagen", brand: "Volkswagen", name: "Volkswagen Golf", price: "420 DH/jour", rating: 5, reviewCount: "102", imageSrc: "http://img.b2bpic.net/free-photo/portrait-astronaut-space-suit-with-golf-cart_23-2151263819.jpg", imageAlt: "Volkswagen Golf hatchback" }
+            { id: "dacia", brand: "Dacia", name: "Dacia Duster SUV", price: "450 DH/jour", rating: 5, reviewCount: "95", imageSrc: "https://images.unsplash.com/photo-1605559424843-9e4c3ca4628d?w=500&h=500&fit=crop", imageAlt: "Dacia Duster SUV" },
+            { id: "golf", brand: "Volkswagen", name: "Volkswagen Golf", price: "420 DH/jour", rating: 5, reviewCount: "102", imageSrc: "https://images.unsplash.com/photo-1598818260b7-00a71bfc8919?w=500&h=500&fit=crop", imageAlt: "Volkswagen Golf hatchback" },
+            { id: "peugeot", brand: "Peugeot", name: "Peugeot 208", price: "380 DH/jour", rating: 5, reviewCount: "110", imageSrc: "https://images.unsplash.com/photo-1552519507-da3effeff00f?w=500&h=500&fit=crop", imageAlt: "Peugeot 208 compact car" },
+            { id: "clio", brand: "Renault", name: "Clio Compact", price: "350 DH/jour", rating: 5, reviewCount: "120", imageSrc: "https://images.unsplash.com/photo-1609708536965-4a6b17c1e1fe?w=500&h=500&fit=crop", imageAlt: "Renault Clio compact car" },
+            { id: "mercedes", brand: "Mercedes", name: "Mercedes C-Class", price: "800 DH/jour", rating: 5, reviewCount: "85", imageSrc: "https://images.unsplash.com/photo-1606611013016-969c19d4a42f?w=500&h=500&fit=crop", imageAlt: "Mercedes C-Class luxury sedan" },
+            { id: "bmw", brand: "BMW", name: "BMW 3 Series", price: "900 DH/jour", rating: 5, reviewCount: "78", imageSrc: "https://images.unsplash.com/photo-1552519507-da3effeff00f?w=500&h=500&fit=crop", imageAlt: "BMW 3 Series premium sedan" }
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
