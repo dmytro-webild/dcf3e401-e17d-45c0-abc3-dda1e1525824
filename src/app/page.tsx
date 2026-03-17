@@ -13,6 +13,8 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import { Plane, Clock, Shield, Zap, Tag, Sparkles, Heart } from 'lucide-react';
 
+const BL_BENZ_LOGO = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773780595739-ytw3hugk.jpg";
+
 export default function LandingPage() {
   return (
     <ThemeProvider
@@ -30,6 +32,7 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarStyleApple
           brandName="BL BENZ"
+          brandLogo={BL_BENZ_LOGO}
           navItems={[
             { name: "Réserver", id: "booking" },
             { name: "Véhicules", id: "vehicles" },
@@ -72,6 +75,10 @@ export default function LandingPage() {
           avatarText="2000+ Clients satisfaits"
           carouselPosition="right"
           ariaLabel="Hero section BL BENZ luxury car rental"
+          marqueeItems={[
+            { imageSrc: BL_BENZ_LOGO, imageAlt: "BL BENZ Logo" }
+          ]}
+          showMarqueeCard={true}
         />
       </div>
 
@@ -168,8 +175,8 @@ export default function LandingPage() {
           description="BL BENZ est une agence de location de voitures basée à Agadir, spécialisée dans la fourniture de véhicules modernes, confortables et parfaitement entretenus pour les touristes et professionnels."
           subdescription="Notre objectif est d'offrir une expérience simple, rapide et fiable. Nous comprenons l'importance de pouvoir explorer Agadir et ses environs sans tracas, c'est pourquoi nous nous engageons à fournir le meilleur service de location de voitures de la région."
           icon={Heart}
-          imageSrc="http://img.b2bpic.net/free-photo/people-their-office-job-showing-inclusivity_23-2149571096.jpg"
-          imageAlt="BL BENZ team"
+          imageSrc={BL_BENZ_LOGO}
+          imageAlt="BL BENZ Logo"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
         />
