@@ -38,6 +38,8 @@ export default function LandingPage() {
             { name: "Avis", id: "testimonials" },
             { name: "Contact", id: "contact" }
           ]}
+          logoText="BL BENZ"
+          logoClassName="text-lg font-bold tracking-tight"
         />
       </div>
 
