@@ -17,6 +17,7 @@ const BL_BENZ_LOGO = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user
 const CLIO_5_IMAGE = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773805629257-rt5qew33.png";
 const DACIA_LOGAN_IMAGE = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773808699369-crpbmzcz.jpg";
 const NEW_VEHICLE_IMAGE = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773809171408-t9juzaky.jpg";
+const GOLF_8_IMAGE = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773809710022-ryiwi8a7.jpg";
 
 export default function LandingPage() {
   return (
@@ -115,7 +116,7 @@ export default function LandingPage() {
           products={[
             { id: "dacia", brand: "Dacia", name: "Dacia Logan", price: "350 DH/jour", rating: 5, reviewCount: "95", imageSrc: DACIA_LOGAN_IMAGE, imageAlt: "Dacia Logan sedan" },
             { id: "duster", brand: "Dacia", name: "Dacia Duster SUV", price: "450 DH/jour", rating: 5, reviewCount: "95", imageSrc: "https://images.unsplash.com/photo-1605559424843-9e4c3ca4628d?w=500&h=500&fit=crop", imageAlt: "Dacia Duster SUV" },
-            { id: "golf", brand: "Volkswagen", name: "Volkswagen Golf", price: "420 DH/jour", rating: 5, reviewCount: "102", imageSrc: "https://images.unsplash.com/photo-1598818260b7-00a71bfc8919?w=500&h=500&fit=crop", imageAlt: "Volkswagen Golf hatchback" },
+            { id: "golf", brand: "Volkswagen", name: "Volkswagen Golf", price: "420 DH/jour", rating: 5, reviewCount: "102", imageSrc: GOLF_8_IMAGE, imageAlt: "Volkswagen Golf hatchback" },
             { id: "peugeot", brand: "Peugeot", name: "Peugeot 208", price: "380 DH/jour", rating: 5, reviewCount: "110", imageSrc: "https://images.unsplash.com/photo-1552519507-da3effeff00f?w=500&h=500&fit=crop&_wi=1", imageAlt: "Peugeot 208 compact car" },
             { id: "clio", brand: "Renault", name: "Clio Compact", price: "350 DH/jour", rating: 5, reviewCount: "120", imageSrc: CLIO_5_IMAGE, imageAlt: "Renault Clio 5 compact car" },
             { id: "mercedes", brand: "Mercedes", name: "Mercedes C-Class", price: "800 DH/jour", rating: 5, reviewCount: "85", imageSrc: "https://images.unsplash.com/photo-1606611013016-969c19d4a42f?w=500&h=500&fit=crop", imageAlt: "Mercedes C-Class luxury sedan" },
