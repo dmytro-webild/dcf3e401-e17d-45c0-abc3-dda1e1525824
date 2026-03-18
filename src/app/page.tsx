@@ -14,7 +14,7 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import { Plane, Clock, Shield, Zap, Tag, Sparkles, Heart } from 'lucide-react';
 
 const BL_BENZ_LOGO = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773780595739-ytw3hugk.jpg";
-const CLIO_5_IMAGE = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773805044366-hbv40042.png";
+const CLIO_5_IMAGE = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773805629257-rt5qew33.png";
 
 export default function LandingPage() {
   return (
