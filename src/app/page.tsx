@@ -14,6 +14,7 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import { Plane, Clock, Shield, Zap, Tag, Sparkles, Heart } from 'lucide-react';
 
 const BL_BENZ_LOGO = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773780595739-ytw3hugk.jpg";
+const CLIO_5_IMAGE = "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B0BlUQfgJHUm4r12qIgwy95Rl2/uploaded-1773805044366-hbv40042.png";
 
 export default function LandingPage() {
   return (
@@ -113,7 +114,7 @@ export default function LandingPage() {
             { id: "dacia", brand: "Dacia", name: "Dacia Duster SUV", price: "450 DH/jour", rating: 5, reviewCount: "95", imageSrc: "https://images.unsplash.com/photo-1605559424843-9e4c3ca4628d?w=500&h=500&fit=crop", imageAlt: "Dacia Duster SUV" },
             { id: "golf", brand: "Volkswagen", name: "Volkswagen Golf", price: "420 DH/jour", rating: 5, reviewCount: "102", imageSrc: "https://images.unsplash.com/photo-1598818260b7-00a71bfc8919?w=500&h=500&fit=crop", imageAlt: "Volkswagen Golf hatchback" },
             { id: "peugeot", brand: "Peugeot", name: "Peugeot 208", price: "380 DH/jour", rating: 5, reviewCount: "110", imageSrc: "https://images.unsplash.com/photo-1552519507-da3effeff00f?w=500&h=500&fit=crop&_wi=1", imageAlt: "Peugeot 208 compact car" },
-            { id: "clio", brand: "Renault", name: "Clio Compact", price: "350 DH/jour", rating: 5, reviewCount: "120", imageSrc: "https://images.unsplash.com/photo-1609708536965-4a6b17c1e1fe?w=500&h=500&fit=crop", imageAlt: "Renault Clio compact car" },
+            { id: "clio", brand: "Renault", name: "Clio Compact", price: "350 DH/jour", rating: 5, reviewCount: "120", imageSrc: CLIO_5_IMAGE, imageAlt: "Renault Clio 5 compact car" },
             { id: "mercedes", brand: "Mercedes", name: "Mercedes C-Class", price: "800 DH/jour", rating: 5, reviewCount: "85", imageSrc: "https://images.unsplash.com/photo-1606611013016-969c19d4a42f?w=500&h=500&fit=crop", imageAlt: "Mercedes C-Class luxury sedan" },
             { id: "bmw", brand: "BMW", name: "BMW 3 Series", price: "900 DH/jour", rating: 5, reviewCount: "78", imageSrc: "https://images.unsplash.com/photo-1552519507-da3effeff00f?w=500&h=500&fit=crop&_wi=2", imageAlt: "BMW 3 Series premium sedan" }
           ]}
